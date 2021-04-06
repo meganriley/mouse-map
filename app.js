@@ -1,3 +1,6 @@
+//changes the color of the background to a specific color 
+//based on the x & y coordinates of the screen
+
 document.addEventListener('mousemove', function(e) {
     //console.log(e.pageX, e.pageY);
     const r = Math.round(e.pageX * 255 / window.innerWidth);
